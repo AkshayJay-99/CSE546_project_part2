@@ -8,8 +8,7 @@ from imglookup_app.apps import df
 # Create your views here.
 
 @csrf_exempt
-@async_to_sync
-async def imglookup(request):
+def imglookup(request):
     if request.method == 'POST' and 'inputFile' in request.FILES:
         input_file = request.FILES['inputFile']
         input_file_withoutextension = input_file.name.split('.')[0]
