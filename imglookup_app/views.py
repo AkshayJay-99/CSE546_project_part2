@@ -19,8 +19,8 @@ sqs = boto3.client('sqs', region_name='us-east-1')
 
 ec2_instance_ids = ['i-076ff9cd3fa9d5c78', 'i-072e2192ebef2c6c4', 'i-09c3e439d0091156a', 'i-0dbb687d7ddabcbd3', 'i-0a6d49fbd52d8aefa', 'i-0b313197f356d0f2a', 'i-07975344fb98c50f2', 'i-027b01d4637907976', 'i-0669ce2be7099542f', 'i-041898d207a9b6a7e', 'i-001d1a0fbf0db9611', 'i-01b28d1e1b5fc249d', 'i-01f01b6941f8ce643', 'i-0114d1c66d351d304', 'i-02493c472fd4c2b95', 'i-0e89e10f9d19d2562', 'i-0daf89b037b464d8f', 'i-0ba531c5cd85cec75']
 lb_ec2_instance = ['i-07ea64f7f0d415e94']
-#lb_ec2_url = 'http://3.93.2.0:8000/'
-lb_ec2_url = 'http://127.0.0.1:9000/'
+lb_ec2_url = 'http://3.93.2.0:8000/'
+#lb_ec2_url = 'http://127.0.0.1:9000/'
 ec2 = boto3.client('ec2')
 
 
